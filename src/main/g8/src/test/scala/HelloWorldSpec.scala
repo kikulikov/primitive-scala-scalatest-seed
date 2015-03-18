@@ -1,11 +1,12 @@
 package $organization$.$name;format="lower,word"$
 
-import org.scalatest.FunSpec
+import org.specs2.mutable._
 
-class HelloWorldSpec extends FunSpec {
-  describe("Adding 1 to 1") {
-    it("should equals 2"){
-      assert(1+1 == 2)
+class HelloWorldSpec extends Specification {
+
+  "hello world specification" >> {
+    "where adding 1 to 1 should be 2" >> {
+      1 + 1 must_== 2
     }
   }
 }
