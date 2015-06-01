@@ -7,10 +7,10 @@ version := "$version$"
 scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
-  "org.scalaz" %% "scalaz-core" % "7.1.1" withSources() withJavadoc(),
+  "org.scalaz" %% "scalaz-core" % "7.1.2" withSources() withJavadoc(),
   // TESTING
-  "org.scalacheck" %% "scalacheck" % "1.12.2" % "test",
-  "org.specs2" %% "specs2-core" % "3.3" % "test",
+  "org.scalacheck" %% "scalacheck" % "1.12.3" % "test",
+  "org.specs2" %% "specs2-core" % "3.6" % "test",
   "org.mockito" % "mockito-core" % "1.10.19" % "test"
 )
 
