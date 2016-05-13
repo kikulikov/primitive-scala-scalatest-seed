@@ -1,4 +1,4 @@
-name := """primary-scala-scalatest-seed"""
+name := """primitive-scala-scalatest-seed"""
 
 version := "1.0"
 
